@@ -54,6 +54,8 @@ nav {
 .middle {
   display: flex;
   text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .middleleft {
@@ -83,16 +85,19 @@ nav {
   font-size: 32px;
 }
 
-.bottom1 {
-  background-color: blue;
+.bottom {
+  display: flex;
+  background-color: white;
+  color: black;
 }
 
-.bottom2 {
-  background-color: pink;
-}
 
 .footer {
-  background-color: green;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding-top:  20px;
+  padding-bottom: 20px;
 }
 
 .clearfix:after {
