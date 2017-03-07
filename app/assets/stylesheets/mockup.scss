@@ -1,0 +1,102 @@
+// Place all the styles related to the mockup controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+nav {
+  // background-color: rgba(3, 3, 3, 1);
+  color: grey;
+
+  #logo {
+    // padding-top: 18px;
+    float: left;
+    padding-left: 20px;
+  }
+
+  a {
+    color: grey;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  ul {
+    // float: right;
+    margin-left: 40px;
+    list-style-type: none;
+    color: grey;
+
+    li {
+      display: inline-block;
+
+      a {
+        font-weight: lighter;
+        padding: 10px;
+      }
+    }
+  }
+
+}
+
+.navbar {
+  text-align: left;
+}
+
+.top {
+  background-image: image-url('background.jpg');
+  height: 400px;
+}
+
+.toptext {
+  text-align: center;
+  padding-top: 130px;
+  color: white;
+  font-size: 30px;
+}
+
+.middle {
+  display: flex;
+  text-align: center;
+}
+
+.middleleft {
+  background-color: green;
+  color: white;
+  padding: 30px;
+}
+
+.middlemiddle {
+  background-color: blue;
+  color: white;
+  padding: 30px;
+}
+
+.middleright {
+  background-color: black;
+  color: white;
+  padding:30px;
+}
+
+.column {
+  width: 33%;
+  padding-left: 10px;
+}
+
+.bigfont {
+  font-size: 32px;
+}
+
+.bottom1 {
+  background-color: blue;
+}
+
+.bottom2 {
+  background-color: pink;
+}
+
+.footer {
+  background-color: green;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
